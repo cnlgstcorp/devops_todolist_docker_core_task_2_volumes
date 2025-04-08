@@ -68,12 +68,12 @@ DATABASES = {
     }
 
     # "default": {
-    #     "ENGINE": "django.db.backends.mysql",
-    #     "HOST": "FVFFM3F5Q05N", 
+    #     "ENGINE": "mysql.connector.django",
+    #     "HOST": 172.17.0.2, 
     #     "PORT": 3306,
-    #     "NAME":"tododb",
-    #     "PASSWORD": "my-secret-pw", 
-    #     "USER": "root",
+    #     "NAME":"app_db",
+    #     "PASSWORD": "1234", 
+    #     "USER": "app_user",
     # }
 }
 
