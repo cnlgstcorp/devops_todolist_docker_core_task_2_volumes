@@ -67,18 +67,18 @@ DATABASES = {
         "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
     }
 
-    # "default": {
-    #     "ENGINE": "mysql.connector.django",
-    #     "HOST": 172.17.0.2, 
-    #     "PORT": 3306,
-    #     "NAME":"app_db",
-    #     "PASSWORD": "1234", 
-    #     "USER": "app_user",
-    # }
+    "default": {
+         "ENGINE": "mysql.connector.django",
+         "HOST": 172.17.0.2, 
+         "PORT": 3306,
+         "NAME":"app_db",
+         "PASSWORD": "1234", 
+         "USER": "app_user",
+    }
 }
 
-# Internationalization
-# https://docs.djangoproject.com/en/1.7/topics/i18n/
+ #Internationalization
+ #https://docs.djangoproject.com/en/1.7/topics/i18n/
 
 LANGUAGE_CODE = "en-us"
 
